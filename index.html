@@ -4,10 +4,11 @@
             <meta charset="utf-8" />
             <title>Pictures of Cool Countries</title>
             <meta name="cool countries" content="my first HTML and CSS blog" />
-            <!-- <link rel="stylesheet" href="css/style.css"> -->
+            <link rel="stylesheet" href="css/style.css">
         </head>
         <body>
             <div class="container">
+
                 <header class="header">
                     <div id="blogtitle"><h1>Pictures of Cool Countries</h1></div>
                     <div id="nav-top">
@@ -24,30 +25,31 @@
                             three countries that i've most recently read about: Kazakhstan, Uzbekistan, & Croatia.</h2></p>
                     </div>
                 </main>
-                
-                <div class="card">
-                    <img class="card-img" src="images/Kazakhstan/nur_sultan_1.jpg" alt="country1">
-                    <div class="content">
-                        <p><h3>Here is an aerial view with the Baiterek Tower in Nur-Sultan, the capital of Kazahkstan. Click to see images of 
-                        Almaty, Aktoby, Issyk Lake, & Pavlodar.</h3></p>
+                <div class="card_container">
+                    <div class="card">
+                        <img class="card-img" src="images/Kazakhstan/nur_sultan_1.jpg" alt="country1">
+                        <div class="content">
+                            <h3>Here is an aerial view with the Baiterek Tower in Nur-Sultan, the capital of Kazahkstan. Click to see images of 
+                            Almaty, Aktoby, Issyk Lake, & Pavlodar.</h3>
+                        </div>
+                        <button class="button" onclick="document.location='kazahkstan.html'">Kazakhstan</button>
                     </div>
-                    <button class="button" onclick="document.location='kazahkstan.html'">Kazakhstan</button>
-                </div>
-                <div class="card">
-                    <img class="card-img" src="images/Uzbekistan/tashkent_2.jpg" alt="country2">
-                    <div class="content">
-                        <p><h3>This view shows the square that contains the statue of Amir Timur in Tashkent, the capital of 
-                            Uzbekistan. Click to see images of Tashkent, Bukara, Itchan Kala, Khiva, & Samarkand.</h3></p>
+                    <div class="card">
+                        <img class="card-img" src="images/Uzbekistan/tashkent_2.jpg" alt="country2" id="uzbekistan">
+                        <div class="content">
+                            <h3>Here is the square that contains the statue of Amir Timur in Tashkent, the capital of 
+                                Uzbekistan. Click to see images of Tashkent, Bukara, Itchan Kala, Khiva, & Samarkand.</h3>
+                        </div>
+                        <button class="button" onclick="document.location='uzbekistan.html'">Uzbekistan</button>
                     </div>
-                    <button class="button" onclick="document.location='uzbekistan.html'">Uzbekistan</button>
-                </div>
-                <div class="card">
-                    <img class="card-img" src="images/Croatia/zagreb_1.jpg" alt="country3">
-                    <div class="content">
-                        <p><h3>Here is an aerial view of the Zagreb, the capital of Croatia. Click to see images of Zagreb, Dubrovik 
-                            Hvar Island, Pula, & Split.</h3></p>
+                    <div class="card">
+                        <img class="card-img" src="images/Croatia/zagreb_1.jpg" alt="country3">
+                        <div class="content">
+                            <h3>Here is an aerial view of the Zagreb, the capital of Croatia. Click to see images of Zagreb, Dubrovik 
+                                Hvar Island, Pula, & Split.</h3>
+                        </div>
+                        <button class="button" onclick="document.location='croatia.html'">Croatia</button>
                     </div>
-                    <button class="button" onclick="document.location='croatia.html'">Croatia</button>
                 </div>
                 <footer>
                     <div class="quote">
@@ -56,25 +58,25 @@
                     <div class="author">
                         <p>Raphael Dozzi - July 2020</p>
                     </div>
-                    <div class="socialmedia">
+                    <div class="social_media">
                         <span>
                             <a href="https://www.linkedin.com/">
-                                <img alt="linkedin" src="images/social_media/linkedin_logo.png">
+                                <img class="media_icon" alt="linkedin" src="images/social_media/linkedin_logo.png">
                             </a>
                         </span>
                         <span>
                             <a href="https://www.facebook.com/">
-                                <img alt="facebook" src="images/social_media/facebook-icon.png">
+                                <img class="media_icon" alt="facebook" src="images/social_media/facebook-icon.png">
                             </a>
                         </span>
                         <span>
                             <a href="https://www.instagram.com/">
-                                <img alt="instagram" src="images/social_media/ig-logo.png">
+                                <img class="media_icon" alt="instagram" src="images/social_media/ig-logo.png">
                             </a>
                         </span>
                         <span>
                             <a href="https://www.twitter.com/">
-                                <img alt="twitter" src="images/social_media/twitter.jpg">
+                                <img class="media_icon" alt="twitter" src="images/social_media/twitter.jpg">
                             </a>
                         </span>
                     </div>

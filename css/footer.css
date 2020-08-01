@@ -1,8 +1,11 @@
-.linkedin{
-    width: 40px;
-    height: 40px;
+.social_media{
+    display: flex;
+    justify-content: center;
+    flex-flow: nowrap;
 }
 
-.footer{
-    flex-direction: row;
+.media_icon{
+    width: 2.5em;
+    height: 2.5em;
+    padding: 0px 5px;
 }
