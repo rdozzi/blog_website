@@ -1,3 +1,11 @@
+#quote{
+    text-align: center;
+}
+
+#author{
+    text-align: center;
+}
+
 .social_media{
     display: flex;
     justify-content: center;

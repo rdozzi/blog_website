@@ -1,10 +1,9 @@
 .header{
-    padding: 10px;
     text-align: center;
-    color: #11161A;
     background: #ABE9CA;
-    border-style: groove;
-    border-color: #000000;
-    flex: 0 1 100%;
-    grid-column: 1 / -1;
+}
+
+h1{
+    margin-block-start: 0.2em;
+    margin-block-end: 0.2em;
 }

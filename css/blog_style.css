@@ -1,0 +1,29 @@
+@import "header.css";
+@import "footer.css";
+
+.card_container{
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-auto-rows: auto;
+    text-align: center;
+    grid-gap: 6px;
+    align-items: stretch;
+    margin-left: 5px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.card_img{
+    width: 1000px;
+    height; auto;
+    border-style: solid;
+}
+
+body{
+    background-color: #ABE9CA;
+}
