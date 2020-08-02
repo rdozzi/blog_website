@@ -2,21 +2,6 @@
 @import "header.css";
 @import "footer.css";
 
-/* .card{
-    border: 1px solid #228B22;
-    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.2s;
-    max-height: 800px;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    text-align: center;
-    margin: 0px;
-    background: linear-gradient(#DCBFF3, #A4E4F5);
-    background-repeat: no-repeat;
-} */
-
 .card_container{
     display: grid;
     grid-template-columns: repeat(3, auto);
@@ -47,6 +32,8 @@
     font-size: 100%;
     font-weight: bold;
     color: #084627;
+    border-bottom: 5px;
+    padding: 5px;
 }
 
 body{
