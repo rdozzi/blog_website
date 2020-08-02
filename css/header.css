@@ -8,3 +8,7 @@ h1{
     margin-block-start: 0.2em;
     margin-block-end: 0.2em;
 }
+
+#nav-top{
+    font-size: 25px;
+}
