@@ -6,8 +6,12 @@ body{
 }
 
 #sidebar{
+    margin: 0;
+    padding: 0;
     float: left;
+    position: fixed;
     width: 5%;
+    height: 100%
 }
 
 .card_container{
@@ -28,9 +32,14 @@ body{
 }
 
 .card_img{
-    width: 750px;
+    width: 730px;
     height: auto;
     border-style: solid;
+}
+
+.caption{
+    padding-top: 2px;
+    padding-bottom: 12px;
 }
 
 .article_container{
@@ -51,27 +60,28 @@ body{
     width: auto;
 }
 
-@media(min-width: 321px) and (max-width: 900px){
+@media(min-width: 600px) and (max-width: 900px){
 
     .card_img{
-        width: 400px;
-        height: auto;
-        border-style: solid;
+        width: 435px;
     }
 }
 
-@media(max-width: 320px){
-
+@media(min-width: 320px) and (max-width: 599px){
     #sidebar{
-        
-    }
-
-    .card_img{
-        width: 200px;
+        float: none;
+        display: inline-flex;
+        flex-flow: row nowrap;
+        justify-content: space-evenly;
+        width: 100%;
         height: auto;
-        border-style: solid;
+        padding: 10px;
+        position: relative;
     }
-
+    
+    .card_img{
+        width: 235px;
+    }
 }
 
 /* @media(max-width: 320px)

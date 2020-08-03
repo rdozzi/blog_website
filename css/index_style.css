@@ -19,7 +19,9 @@
     text-align: center;
     border: solid;
     align-items: center;
+    justify-content: space-evenly;
     padding-top: 10px;
+    background: linear-gradient(to bottom right, #DCBFF3, #A4E4F5);
 }
 
 .card-img{
@@ -39,28 +41,9 @@ body{
     background-color: #ABE9CA;
 }
 
-/* @media(min-width: 600px) and (max-width: 900px){
-
-    #nav-top{
-        font-size: 50px;
-    }
-} */
-
-@media(max-width: 600px) and (max-width: 900px){
+@media (max-width: 900px){
     .card_container{
-        display: grid;
-        grid-auto-rows: auto;
-        text-align: center;
-        grid-gap: 6px;
-        border: 3px black;
-        align-items: stretch;
-        margin-left: 5px;
-        /* grid-template-columns: repeat(3, auto); */
-        /* grid-auto-rows: auto;
-        text-align: center;
-        grid-gap: 6px;
-        border: 3px black;
-        align-items: stretch;
-        margin-left: 5px; */
+        grid-template-columns: repeat(1, auto);
+
     }
 }

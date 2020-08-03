@@ -1,9 +1,14 @@
 #quote{
     text-align: center;
+    font-style: italic;
 }
 
 #author{
     text-align: center;
+}
+
+#author{
+    text-decoration: underline;
 }
 
 .social_media{
