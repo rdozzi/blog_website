@@ -1,5 +1,4 @@
-#HTML & CSS Intro Blog
-By: Raphael Dozzi (July/Aug 2020)
+# HTML & CSS Intro Blog By: Raphael Dozzi (July/Aug 2020)
 
 ## Introduction
 
